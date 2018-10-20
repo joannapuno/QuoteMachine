@@ -1,0 +1,151 @@
+/* GENERAL */
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+   
+  }
+
+  .content-box {
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    position: relative;
+
+}
+
+/* IMAGE */
+
+  #img-box {
+      height: 700px;
+      width: 70%;
+      background-size: cover;
+      background-position-x: -100px;
+      position:absolute;
+      z-index: -100;
+  }
+
+  #img-box #main-img {
+    height: 100%;
+  }
+
+  /* QUOTE*/
+
+  #quote-container {
+    width: 60%;
+    background: url(./img/yellowPolygon.svg);
+    background-size: cover;
+    padding-top: 10px;
+    position: relative;
+    left: 600px;
+    background-repeat:no-repeat; 
+
+  }
+
+  #quote-left {
+    color: #fff;
+  }
+
+  #quote-right {
+    position: absolute;
+    right: 0;
+    color: #fff;
+    
+    
+  }
+
+#quote-content {
+    width: 60%;
+    position: absolute;
+    left: 180px;
+    top: 40px;
+    right: 0;
+}
+
+  #quote-container p{
+      font-size: 50px;
+      text-align: center;
+      font-family: 'Helvetica', sans-serif;
+      font-weight: 400;
+      color: #fff;
+  }
+
+  #quote-container #quote-author {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 100;
+    margin-top: 30px;
+    color: #fff;
+    
+  }
+
+/* BUTTONS */
+
+  .buttons {
+    height: 200px;
+    width: 90%;
+    padding: 100px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    position: absolute;
+    top: 550px;
+  }
+
+
+#nextButton {
+  background: none;
+  border: none;
+  color: #fff;
+}
+
+#nextButton:hover {
+  color: #222;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+  #nextButton i {
+    margin-left: 10px;
+  }
+
+#backButton {
+  background: none;
+  border: none;
+  color: #fff;
+}
+
+#backButton:hover {
+  color: #FFC400;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+  #backButton i {
+    margin-right: 10px;
+  }
+
+
+
+
+  
+  #tweetBtn {
+    position: absolute;
+    background: none;
+    border: none;
+    margin: 10px;
+    
+  }
+
+  #tweetBtn a {
+    color: #fff;
+    font-family: 'Arial, Helvetica', sans-serif;
+    font-size: 13px;
+  }
+
+  #tweetBtn i {
+    color:#1DA1F2;
+  }
+
+  
