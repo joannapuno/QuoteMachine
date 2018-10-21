@@ -27,4 +27,6 @@ The focus is definitely on the images but I want you to look at the bright yello
 As this is a WIP, I would like to give it more life by adding animations when the quotes change. 
 This was a great project as I was able to incorporte my design background!
 
+I would also like to make it responsive!
+
 
